@@ -10,6 +10,22 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./fonts.css">
     <style></style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                touch: true,
+                pauseOnAction: false,
+                pauseOnHover: false,
+            });
+        });
+    </script>
+
+
 </head>
 
 <body>
@@ -35,7 +51,7 @@
                         <li><a href="./Order form.html">Order</a></li>
                         <li><a href="./portfolio.html">Portfolio</a></li>
                         <li><a href="./contact.html">Contact us</a></li>
-                        <li><a href="./admin.html">Admin</a></li>                        
+                        <li><a href="./admin.html">Admin</a></li>
                     </ul>
                 </nav>
             </div>
@@ -44,16 +60,32 @@
     <main class="main">
 
 
-        <div class="container"><br>
-            <h1>Cake's</h1>
+        <div class="flexslider">
+            <center>
+                <ul class="slides">
+                    <li>
+                        <img src="imagenes/1.jpg" alt="" height="400" width="400">
+                        <section class="flex-caption">
+                            <p>Butterscotch</p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="imagenes/2.jpg" alt="" height="400" width="400">
+                        <section class="flex-caption">
+                            <p>Chocolate w/M&M's</p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="imagenes/3.jpg" alt="" height="400" width="400">
+                        <section class="flex-caption">
+                            <p>Vanilla and Strawberrys</p>
+                        </section>
+                    </li>
+                </ul>
+            </center>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
-        <div class="container">
 
-
-
-        </div>
-        <br>
-        <br>
         <div class="container-image"><img src="./The cakery pastery.gif" alt="The cakery pastery" width="400"
                 height="400"><br><br>
 
